@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* header part css code start */
+#header{
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
+.container{
+    margin: 0 100px;
+}
+.logo{
+    width: 100px;
+    margin-top: 30px;
+}
+.header_text{
+    max-width: 350px;
+    margin-top:140px
+}
+h1{
+    font-size:34px;
+}
+.square{
+    height:12px;
+    width: 12px;
+    display: inline-block;
+    background-color: #f67c92;
+    margin: 15px 0 ;
+}
+.common_btn{
+    padding: 12px 40px;
+    background: transparent;
+    /* outline: none; */
+    border: 2px solid #f67c92;
+    cursor: poiner;
+}
+p{
+    font-size: 15px;
+    line-height: 25px;
+    color: rgb(173, 170, 165)
+}
+.header_text button {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.line .line_1{
+    width:15px;
+    height: 15px;
+    background : #f67c92;
+    display: inline-block;
+}
+/* header part css code end */
+
+/* sidenav css code start */
+#side_nav{
+    width: 250px;
+    height:100vh;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    background-color: #f67c92;
+    z-index: 2;
+    transition: all linear 0.6s;
+}
+
+#side_nav ul li {
+    list-style: none;
+    margin: 30px 20px;
+}
+#side_nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+#menu_btn{
+    width: 48px;
+    position: fixed;
+    top: 20px;
+    right: 50px;
+    z-index: 3;
+    cursor: pointer;
+}
+/* sidenav css code end */
+
+/* about page css code start */
+#about,#offer{
+    padding: 100px 0 ;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about_left_column{
+    flex-basis: 50%;
+}
+.about_left_column img{
+    width: 100%;
+}
+.about_right_column{
+    flex-basis: 50%;
+    text-align: right;
+}
+.about_text{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.about_text h1{
+    margin: 50px 0 10px;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: italic;
+}
+.about_text h2{
+    margin: 50px 0 10px;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: italic;
+}
+/* about page css code end */
+
+/* features css code start */
+#features{
+    padding: 50px 0;
+    background-color: #f3eff0;
+    border-radius: 50px;
+}
+.feature_row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.feature_column{
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.feature_column img{
+    width: 150px;
+}
+.feature_column h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.features_btn{
+    text-align: center;
+    padding: 100px 0;
+}
+/* features css code end */
+
+/* courses css code start */
+#courses{
+    padding: 100px 0 ;
+    
+}
+.container_course_row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.course_right_column {
+    flex-basis: 48%;
+}
+.course_right_column img{
+    width:100%;
+}
+.course_left_column{
+    flex-basis:48%;
+}
+.course_text{
+    max-width: 300px;
+    margin: 30px 100px
+}
+/* courses css code end */
+
+/* offer css code start */
+
+/* offer css code end */
+
+/* contact css code start */
+
+.container_contact_row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact_left_column , .contact_right_column{
+    flex-basis: 47%
+}
+.contact_right_column img{
+    width: 100%;
+}
+.contact_left_column{
+    margin-left: 80px;
+}
+
+form{
+    max-width: 350px;
+    margin: 30px 0;
+}
+
+form input{
+    width: 100%;
+    padding:12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-shadow: border-box;
+    border: 2px solid #fab3c4;
+}
+.btn_box{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+
+}
+.btn_box button{
+    flex-basis: 48%;
+    padding: 18px 0;
+}
+/* contact css code end */
+
+/* footer css code start */
+#footer{
+    padding:50px 0 30px;
+}
+hr{
+    width:100%;
+    border: 0;
+    border-top: 1px solid #f67c92;
+    margin: auto;
+}
+
+.container_footer_row{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.footer_left_column{
+    flex-basis: 50%;
+    margin-top: 60px;
+}
+.footer_right_column{
+    flex-basis:35%;
+}
+.footer_links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* footer css code end */
